@@ -1,0 +1,35 @@
+.templates {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.templates-header {
+  text-align: center;
+}
+
+.template {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.template-header {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.template-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo-btn {
+  padding: 1rem;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #e7e4e4;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #eee;
+}
